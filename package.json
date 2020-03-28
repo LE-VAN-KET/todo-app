@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "write a simple API with express",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "serve:frontend": "yarn workspace @app/frontend serve",
+    "serve:backend": "yarn workspace @app/backend serve"
+  }
+}
